@@ -1,0 +1,41 @@
+fieldset{
+    max-width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+ul>li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 1%
+}
+
+.question-box ul,
+.feedback-box ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.question-box li,
+.feedback-box li{
+    align-self: flex-start;
+}
+
+.feedback-box{
+    margin-bottom: 20px;
+}
+
+.feedback-box button,
+.question-box button{
+    float: right;
+}
+
+h1, section ul,
+.result-box div,
+.start-box div{
+    text-align: center;
+}
+
+
